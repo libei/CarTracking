@@ -8,8 +8,8 @@
     <artifactId>CarTracking</artifactId>
     <version>1.0</version>
 
-    
-<repositories>
+
+    <repositories>
         <repository>
             <id>scala-tools.org</id>
             <name>Scala-tools Maven2 Repository</name>
@@ -70,5 +70,5 @@
             </plugin>
         </plugins>
     </build>
-    
+
 </project>
