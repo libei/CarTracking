@@ -3,6 +3,9 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="1afa56f1-78c7-4291-b3af-680dfaef3f93" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarTracking.iml" afterPath="$PROJECT_DIR$/CarTracking.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpecs.scala" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CarTracking.iws" />
@@ -108,10 +111,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarSpecs.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpecs.scala">
+      <file leaf-file-name="CarSpec.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.09054326">
+            <state line="2" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.062893085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="59" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateUtilsSpec.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="25" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/domain/Spot.scala" />
-        <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/domain/Port.scala" />
         <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/domain/BluetoothRecord.scala" />
         <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/repository/StationRepository.scala" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
@@ -193,11 +212,13 @@
         <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/domain/EquipmentInformation.scala" />
         <option value="$PROJECT_DIR$/src/edu/ou/ece/cartracking/domain/Station.scala" />
         <option value="$PROJECT_DIR$/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala" />
       </list>
     </option>
   </component>
@@ -620,7 +641,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless files and folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="add src and test dir attributes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -642,6 +663,7 @@
     <MESSAGE value="add hibernate test, add log4j, scalatest library" />
     <MESSAGE value="restructure the directory" />
     <MESSAGE value="remove useless files and folders" />
+    <MESSAGE value="add src and test dir attributes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -686,9 +708,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpecs.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="50" selection-end="50" vertical-scroll-proportion="0.09054326">
+        <state line="79" column="59" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="43" selection-end="43" vertical-scroll-proportion="0.062893085">
           <folding />
         </state>
       </provider>

@@ -77,6 +77,7 @@
                 </executions>
                 <configuration>
                     <sourceDir>src/main</sourceDir>
+                    <testSourceDir>src/test</testSourceDir>
                     <jvmArgs>
                         <jvmArg>-Xms64m</jvmArg>
                         <jvmArg>-Xmx1024m</jvmArg>

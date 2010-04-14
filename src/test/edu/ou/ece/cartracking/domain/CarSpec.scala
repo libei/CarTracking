@@ -1,4 +1,4 @@
 package edu.ou.ece.cartracking
 
-class CarSpecs {
+class CarSpec {
 }
