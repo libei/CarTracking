@@ -1,0 +1,9 @@
+
+DROP DATABASE IF EXISTS CarTracking
+CREATE DATABASE CarTracking
+
+CREATE TABLE CarRecord
+(
+
+)
+
