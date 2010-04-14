@@ -1,4 +1,4 @@
-package edu.ou.ece.cartracking
+package edu.ou.ece.cartracking.domain
 
 import javax.persistence._
 

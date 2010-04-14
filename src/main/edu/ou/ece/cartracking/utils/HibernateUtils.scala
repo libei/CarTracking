@@ -1,8 +1,8 @@
 package edu.ou.ece.cartracking.utils
 
 import org.hibernate.SessionFactory
-import org.hibernate.cfg.Configuration
 import org.apache.log4j.Logger
+import org.hibernate.cfg.{AnnotationConfiguration, Configuration}
 
 
 object HibernateUtils {
@@ -13,7 +13,7 @@ object HibernateUtils {
 
     try {
       // Create the SessionFactory from hibernate.cfg.xml
-      return new Configuration().configure().buildSessionFactory();
+      return new AnnotationConfiguration().configure().buildSessionFactory();
     }
     catch {
 

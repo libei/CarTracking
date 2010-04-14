@@ -2,9 +2,9 @@ package edu.ou.ece.cartracking.repository
 
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.FlatSpec
-import edu.ou.ece.cartracking.CarRecord
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
+import edu.ou.ece.cartracking.domain.CarRecord
 
 @RunWith(classOf[JUnitRunner])
 class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
@@ -12,7 +12,7 @@ class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
     val carRecord: CarRecord = new CarRecord;
     val saved = CarRecordRepository.save(carRecord);
 
-    saved.id should equal(0l)
+    saved.id should not equal (0l)
   }
 
 }
