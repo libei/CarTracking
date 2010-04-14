@@ -10,9 +10,9 @@ import org.scalatest.junit.JUnitRunner
 class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
   it should "save the object into db" in {
     val carRecord: CarRecord = new CarRecord;
-    CarRecordRepository.save(carRecord);
+    val saved = CarRecordRepository.save(carRecord);
 
-    carRecord.id should equal(0l)
+    saved.id should equal(0l)
   }
 
 }

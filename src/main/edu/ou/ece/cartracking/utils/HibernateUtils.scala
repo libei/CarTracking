@@ -6,10 +6,10 @@ import org.apache.log4j.Logger
 
 
 object HibernateUtils {
-  val sessionFactory = buildSessionFactory()
-  val logger: Logger = Logger.getLogger("edu.ou.ece.cartracking.utils")
+  private val sessionFactory = buildSessionFactory()
+  private val logger: Logger = Logger.getLogger(getClass)
 
-  def buildSessionFactory(): SessionFactory = {
+  private def buildSessionFactory(): SessionFactory = {
 
     try {
       // Create the SessionFactory from hibernate.cfg.xml

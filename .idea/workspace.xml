@@ -3,11 +3,12 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="1afa56f1-78c7-4291-b3af-680dfaef3f93" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/utils/HibernateUtilsSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarTracking.iml" afterPath="$PROJECT_DIR$/CarTracking.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/StationRepository.scala" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CarTracking.iws" />
@@ -68,54 +69,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <file leaf-file-name="HibernateUtils.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="89" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Station.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarSpec.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="52" selection-start="224" selection-end="262" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="0" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="tag#dependency#0;tag#dependencies#0;tag#project#0" expanded="false" />
-                <element signature="tag#dependency#1;tag#dependencies#0;tag#project#0" expanded="false" />
-                <element signature="tag#dependency#2;tag#dependencies#0;tag#project#0" expanded="false" />
-                <element signature="tag#dependency#3;tag#dependencies#0;tag#project#0" expanded="false" />
-                <element signature="tag#dependency#4;tag#dependencies#0;tag#project#0" expanded="false" />
-                <element signature="tag#plugin#0;tag#plugins#0;tag#build#0;tag#project#0" expanded="false" />
-                <element signature="tag#plugin#1;tag#plugins#0;tag#build#0;tag#project#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtilsSpec.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/utils/HibernateUtilsSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="273" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="8" column="10" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16198704">
               <folding />
             </state>
           </provider>
@@ -124,43 +81,25 @@
       <file leaf-file-name="CarRecordRepository.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="17" column="40" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CarRecordRepositorySpec.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="502" selection-end="502" vertical-scroll-proportion="0.63084114">
+            <state line="16" column="38" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/create.sql">
+      <file leaf-file-name="log4j.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="72" selection-end="83" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarRecord.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="75" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratedValue.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/javax/persistence/GeneratedValue.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+            <state line="15" column="58" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,17 +175,17 @@
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/sql/drop.sql" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/sql/create.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
-        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala" />
       </list>
     </option>
   </component>
@@ -304,10 +243,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="CarTracking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -415,10 +350,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -457,6 +388,132 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ece" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ece" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ece" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ece" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -747,7 +804,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1030" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -758,11 +815,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.0" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15306123" sideWeight="0.5420455" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15306123" sideWeight="0.5590909" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19763695" sideWeight="0.5420455" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1772288" sideWeight="0.5590909" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43295455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -781,7 +838,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="run scripts in sql directory upon test phase" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding CarRecord repository - on going" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -809,6 +866,7 @@
     <MESSAGE value="moving hibernate config file to the right dir - checking in frequently since i'm not really comfortable with git" />
     <MESSAGE value="#log4j is up and running&#10;#hibernate seems connected&#10;oh yea!&#10;" />
     <MESSAGE value="run scripts in sql directory upon test phase" />
+    <MESSAGE value="adding CarRecord repository - on going" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -828,20 +886,6 @@
         <state line="5" column="33" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="58" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" />
@@ -854,9 +898,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate/3.2.3.ga/hibernate-3.2.3.ga.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="155" selection-end="162" vertical-scroll-proportion="0.14018692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/utils/HibernateUtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="273" selection-end="303" vertical-scroll-proportion="0.3047404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="0" selection-start="4535" selection-end="4535" vertical-scroll-proportion="0.0">
+        <state line="78" column="28" selection-start="2741" selection-end="2741" vertical-scroll-proportion="0.81038374">
           <folding>
             <element signature="tag#dependency#0;tag#dependencies#0;tag#project#0" expanded="false" />
             <element signature="tag#dependency#1;tag#dependencies#0;tag#project#0" expanded="false" />
@@ -869,51 +927,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/sql/create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="72" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="89" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="75" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="224" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/utils/HibernateUtilsSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="273" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+        <state line="8" column="52" selection-start="224" selection-end="262" vertical-scroll-proportion="0.25917926">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="502" selection-end="502" vertical-scroll-proportion="0.63084114">
+        <state line="12" column="38" selection-start="457" selection-end="457" vertical-scroll-proportion="0.3887689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/sql/create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="72" selection-end="83" vertical-scroll-proportion="0.12958963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="75" selection-end="84" vertical-scroll-proportion="0.19438446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="58" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="180" selection-end="180" vertical-scroll-proportion="0.16198704">
           <folding />
         </state>
       </provider>
