@@ -139,7 +139,7 @@
                 <executions>
                     <execution>
                         <id>create-data</id>
-                        <phase>test</phase>
+                        <phase>compile</phase>
                         <goals>
                             <goal>execute</goal>
                         </goals>
