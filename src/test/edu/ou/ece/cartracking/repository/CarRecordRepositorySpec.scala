@@ -10,9 +10,18 @@ import edu.ou.ece.cartracking.domain.CarRecord
 class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
   it should "save the object into db" in {
     val carRecord: CarRecord = new CarRecord;
-    val saved = CarRecordRepository.save(carRecord);
+    CarRecordRepository.save(carRecord);
 
-    saved.id should not equal (0l)
+    carRecord.id should not equal (0l)
+  }
+
+  it should "load object form db" in {
+    val saved = new CarRecord;
+    CarRecordRepository.save(saved);
+
+    val loaded: CarRecord = CarRecordRepository.load(saved.id)
+
+    loaded.id should equal(saved.id)
   }
 
 }
