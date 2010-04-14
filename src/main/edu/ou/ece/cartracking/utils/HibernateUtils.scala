@@ -12,7 +12,6 @@ object HibernateUtils {
   def buildSessionFactory(): SessionFactory = {
 
     try {
-      logger.debug("buildSessionFactory");
       // Create the SessionFactory from hibernate.cfg.xml
       return new Configuration().configure().buildSessionFactory();
     }
@@ -20,7 +19,7 @@ object HibernateUtils {
 
       case ex: Throwable => {
         System.err.println("Initial SessionFactory creation failed." + ex);
-        throw new ExceptionInInitializerError(ex);
+        throw ex;
 
       }
     }
