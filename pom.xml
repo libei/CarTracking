@@ -29,10 +29,9 @@
             <version>2.7.7</version>
         </dependency>
         <dependency>
-            <groupId>org.scala-tools.testing</groupId>
-            <artifactId>specs</artifactId>
-            <version>1.6.2</version>
-            <scope>test</scope>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.12</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -54,6 +53,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.7</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest</artifactId>
+            <version>1.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
