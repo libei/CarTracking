@@ -9,12 +9,12 @@ object HibernateUtils {
   val sessionFactory = buildSessionFactory()
   val logger: Logger = Logger.getLogger("edu.ou.ece.cartracking.utils")
 
-  def buildSessionFactory(): org.hibernate.SessionFactory = {
+  def buildSessionFactory(): SessionFactory = {
 
     try {
       logger.debug("buildSessionFactory");
       // Create the SessionFactory from hibernate.cfg.xml
-      return new org.hibernate.cfg.Configuration().configure().buildSessionFactory();
+      return new Configuration().configure().buildSessionFactory();
     }
     catch {
 
