@@ -38,9 +38,14 @@
     <orderEntry type="library" exported="" name="Maven: antlr:antlr:2.7.6" level="project" />
     <orderEntry type="library" exported="" name="Maven: cglib:cglib:2.1_3" level="project" />
     <orderEntry type="library" exported="" name="Maven: asm:asm:1.5.3" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.hibernate:hibernate-annotations:3.2.1.ga" level="project" />
+    <orderEntry type="library" exported="" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.hibernate:hibernate-entitymanager:3.2.1.ga" level="project" />
+    <orderEntry type="library" exported="" name="Maven: javassist:javassist:3.3.GA" level="project" />
+    <orderEntry type="library" exported="" name="Maven: jboss:jboss-archive-browsing:5.0.0alpha-200607201-119" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest:1.0" level="project" />
-    <orderEntry type="library" exported="" name="Maven: mysql:mysql-connector-java:5.0.5" level="project" />
+    <orderEntry type="library" exported="" name="Maven: mysql:mysql-connector-java:5.1.6" level="project" />
   </component>
 </module>
 
