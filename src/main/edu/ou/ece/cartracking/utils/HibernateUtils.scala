@@ -12,7 +12,7 @@ object HibernateUtils {
   def buildSessionFactory(): org.hibernate.SessionFactory = {
 
     try {
-      Logger.debug("buildSessionFactory");
+      logger.debug("buildSessionFactory");
       // Create the SessionFactory from hibernate.cfg.xml
       return new org.hibernate.cfg.Configuration().configure().buildSessionFactory();
     }
