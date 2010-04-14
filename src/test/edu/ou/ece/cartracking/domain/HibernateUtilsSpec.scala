@@ -11,6 +11,6 @@ import org.hibernate.SessionFactory
 class HibernateUtilsSpec extends FlatSpec with ShouldMatchers {
   it should "read the configuration file and init itself" in {
     val factory = HibernateUtils.getSessionFactory
-    factory should be(null)
+    factory should not be (null)
   }
 }
