@@ -1,4 +1,15 @@
 package edu.ou.ece.cartracking.service
 
-object VideoCamera {
+import actors.Actor
+
+class VideoCamera extends Actor {
+  def act() {
+
+    while (true) {
+      receive {
+
+      }
+    }
+
+  }
 }
