@@ -54,6 +54,11 @@
             <artifactId>hibernate-entitymanager</artifactId>
             <version>3.2.1.ga</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.0.1</version>
+        </dependency>
         <!--<dependency>-->
         <!--<groupId>org.hibernate</groupId>-->
         <!--<artifactId>hibernate-tools</artifactId>-->
