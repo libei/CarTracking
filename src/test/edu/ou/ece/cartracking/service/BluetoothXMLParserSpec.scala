@@ -22,14 +22,19 @@ import ou.ece.cartracking.service.BluetoothXMLParser
 class BluetoothXMLParserSpec extends FlatSpec with ShouldMatchers {
   it should "parse the empty xml" in {
 
-    val records = BluetoothXMLParser.parse("")
+    val parser = new BluetoothXMLParser
+
+    val records = parser.parse("")
     records.length should equal(0)
 
   }
 
   it should "parse xml and get records" in {
 
-    val records = BluetoothXMLParser.parse(""""
+    val parser = new BluetoothXMLParser
+
+
+    val records = parser.parse(""""
 <records>
   <record>
     <unixTime>123</unixTime>
