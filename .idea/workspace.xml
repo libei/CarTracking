@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="1afa56f1-78c7-4291-b3af-680dfaef3f93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/service/BluetoothXMLParserSpec.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CarTracking.iml" afterPath="$PROJECT_DIR$/CarTracking.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala" afterPath="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala" />
     </list>
-    <ignored path="CarTracking.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="CarTracking.iws" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,42 +67,6 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CarRecordRepositorySpec.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarRecordRepository.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/sql/create.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="21" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EquipmentInformation.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,7 +88,16 @@
       <file leaf-file-name="VideoCamera.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="5" column="96" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HibernateUtils.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="47" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +106,7 @@
       <file leaf-file-name="CarRecord.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="96" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,16 +115,43 @@
       <file leaf-file-name="BluetoothRecord.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="223" selection-end="230" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothSensor.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BluetoothSensor.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="8" selection-start="270" selection-end="270" vertical-scroll-proportion="0.22882615">
+            <state line="20" column="21" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluetoothXMLParserSpec.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/service/BluetoothXMLParserSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarRecordRepositorySpec.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.23045267">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarSpec.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="6" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala" />
-        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/HibernateUtilsSpec.scala" />
@@ -235,10 +232,12 @@
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala" />
-        <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala" />
         <option value="$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/service/BluetoothXMLParserSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala" />
       </list>
     </option>
   </component>
@@ -287,10 +286,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,6 +323,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cartracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CarTracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,6 +567,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Favorites" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,7 +611,18 @@
       <recent name="edu.ou.ece.cartracking.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.Unnamed">
+  <component name="RunManager" selected="ScalaTest.BluetoothXMLParserSpec">
+    <configuration default="false" name="BluetoothXMLParserSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="CarTracking" />
+      <setting name="path" value="edu.ou.ece.cartracking.service.BluetoothXMLParserSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="version" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -785,8 +821,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.BluetoothXMLParserSpec" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -831,7 +868,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1442" height="857" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -840,11 +877,11 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15660919" sideWeight="0.654195" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.128877" sideWeight="0.5825991" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21408045" sideWeight="0.654195" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21336898" sideWeight="0.5825991" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33730158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40969163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hibernate Tools" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -866,7 +903,7 @@
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="build the db during compilation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bluetooth sensor client" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -898,6 +935,7 @@
     <MESSAGE value="first repository test passed&#10;oh yeah!" />
     <MESSAGE value="save/load CarRecord entity to/from DB" />
     <MESSAGE value="build the db during compilation" />
+    <MESSAGE value="add bluetooth sensor client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -912,19 +950,9 @@
         <state line="9" column="0" selection-start="273" selection-end="303" vertical-scroll-proportion="0.3047404" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="474" selection-end="474" vertical-scroll-proportion="0.505618" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="63" selection-start="899" selection-end="899" vertical-scroll-proportion="0.48387095" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="216" selection-end="216" vertical-scroll-proportion="0.2580645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
@@ -932,9 +960,9 @@
         <state line="15" column="58" selection-start="570" selection-end="570" vertical-scroll-proportion="0.032258064" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" />
+        <state line="18" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/sql/create.sql">
@@ -944,36 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="21" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/repository/CarRecordRepository.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+        <state line="60" column="21" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/Station.scala">
@@ -981,9 +980,63 @@
         <state line="4" column="6" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/utils/HibernateUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/EquipmentInformation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/CarRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="96" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/domain/BluetoothRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="223" selection-end="230" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/domain/CarSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/VideoCamera.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="96" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/edu/ou/ece/cartracking/service/BluetoothSensor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="270" selection-end="270" vertical-scroll-proportion="0.22882615">
+        <state line="20" column="21" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/service/BluetoothXMLParserSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/edu/ou/ece/cartracking/repository/CarRecordRepositorySpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.23045267">
           <folding />
         </state>
       </provider>
