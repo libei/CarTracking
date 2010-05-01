@@ -1,4 +1,4 @@
-package ou.ece.cartracking.service
+package edu.ou.ece.cartracking.service
 
 import edu.ou.ece.cartracking.domain.BluetoothRecord
 

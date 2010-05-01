@@ -4,7 +4,7 @@ import org.scalatest.matchers.ShouldMatchers
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import org.scalatest.FlatSpec
-import ou.ece.cartracking.service.BluetoothXMLParser
+
 
 //<records>
 //  <record>
@@ -22,19 +22,14 @@ import ou.ece.cartracking.service.BluetoothXMLParser
 class BluetoothXMLParserSpec extends FlatSpec with ShouldMatchers {
   it should "parse the empty xml" in {
 
-    val parser = new BluetoothXMLParser
-
-    val records = parser.parse("")
+    val records = BluetoothXMLParser.parse("")
     records.length should equal(0)
 
   }
 
   it should "parse xml and get records" in {
 
-    val parser = new BluetoothXMLParser
-
-
-    val records = parser.parse(""""
+    val records = BluetoothXMLParser.parse(""""
 <records>
   <record>
     <unixTime>123</unixTime>
