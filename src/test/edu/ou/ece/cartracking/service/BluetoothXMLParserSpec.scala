@@ -29,7 +29,7 @@ class BluetoothXMLParserSpec extends FlatSpec with ShouldMatchers {
 
   it should "parse xml and get records" in {
 
-    val records = BluetoothXMLParser.parse(""""
+    val records = BluetoothXMLParser.parse("""
 <records>
   <record>
     <unixTime>123</unixTime>
