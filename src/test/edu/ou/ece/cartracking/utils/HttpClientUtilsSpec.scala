@@ -17,7 +17,7 @@ class HttpClientUtilsSpec extends FlatSpec with ShouldMatchers {
   it should "return content for a valid url" in {
     val res = HttpClientUtils.get("http://www.google.com")
 
-    res should not equal (null)
+    res.contains("Google Search") should equal(true)
 
 
   }
