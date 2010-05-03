@@ -5,7 +5,6 @@ import org.scalatest.matchers.ShouldMatchers
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
 import edu.ou.ece.cartracking.utils.HibernateUtils
-import org.hibernate.SessionFactory
 
 @RunWith(classOf[JUnitRunner])
 class HibernateUtilsSpec extends FlatSpec with ShouldMatchers {
