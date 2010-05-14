@@ -9,5 +9,12 @@ class CarRecord() {
   @GeneratedValue
   var id: Long = 0l
 
+  @Transient
+  var records: List[BluetoothRecord] = null;
+
+  def addBluetoothRecords(records: List[BluetoothRecord]) {
+
+  }
+
 }
   
