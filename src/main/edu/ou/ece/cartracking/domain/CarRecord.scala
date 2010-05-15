@@ -1,7 +1,7 @@
 package edu.ou.ece.cartracking.domain
 
 import javax.persistence._
-import collection.jcl.ArrayList;
+import java.util.ArrayList;
 
 
 @Entity
@@ -10,12 +10,19 @@ class CarRecord() {
   @GeneratedValue
   var id: Long = 0l
 
-  @Transient
-  var records = new ArrayList[BluetoothRecord];
+  @OneToMany {val cascade = Array(CascadeType.ALL), val targetEntity = classOf[BluetoothRecord], val fetch = FetchType.LAZY}
+  var records: java.util.List[BluetoothRecord] = new ArrayList[BluetoothRecord];
 
   def addBluetoothRecords(records: List[BluetoothRecord]) {
-    this.records addAll (records)
+
+    records.foreach(r => {
+      r.carRecord = this
+      this.records.add(r)
+    })
+
   }
+
+  def getBluetoothRecords: java.util.List[BluetoothRecord] = records
 
 }
   

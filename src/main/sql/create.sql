@@ -17,5 +17,14 @@ CREATE TABLE BluetoothRecord
     macAddress TEXT,
     deviceType TEXT,
     unitSN TEXT,
+    carRecordId INT(11),    
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE CarRecord_BluetoothRecord
+(
+    id INT(11) NOT NULL auto_increment,
+    CarRecord_id INT(11) NOT NULL,
+    records_id INT(11) NOT NULL,
     PRIMARY KEY (id)
 );

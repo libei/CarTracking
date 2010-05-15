@@ -21,7 +21,7 @@ class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
     record2.deviceType = "iTouch"
     record2.macAddress = "BS:XX:XX:::"
     record2.unitSN = "EFGH"
-    record2.unixTime = 2838438483l;
+    record2.unixTime = 1038438483l;
 
     val bluetoothRecords = List(record1, record2)
     carRecord.addBluetoothRecords(bluetoothRecords)
@@ -29,15 +29,10 @@ class CarRecordRepositorySpec extends FlatSpec with ShouldMatchers {
     CarRecordRepository.save(carRecord);
 
     carRecord.id should not equal (0l)
-  }
 
-  it should "load object form db" in {
-    val saved = new CarRecord;
-    CarRecordRepository.save(saved);
+    val loaded = CarRecordRepository.load(carRecord.id)
+    loaded.getBluetoothRecords.size should equal(2)
 
-    val loaded: CarRecord = CarRecordRepository.load(saved.id)
-
-    loaded.id should equal(saved.id)
   }
 
 
