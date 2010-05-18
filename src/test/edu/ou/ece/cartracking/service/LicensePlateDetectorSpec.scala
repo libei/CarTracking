@@ -11,13 +11,14 @@ import java.net.URI
 class LicensePlateDetectorSpec extends FlatSpec with ShouldMatchers {
   it should "list all files within the given data range" in {
 
-    val uri = this.getClass.getClassLoader.getResource("J00107/f0514,2138316,1,13JL,71,242,0,NONE,0,0,8,1,180,36.jpg")
+    //    val uri = this.getClass.getClassLoader.getResource("J00107/f0514,2138316,1,13JL,71,242,0,NONE,0,0,8,1,180,36.jpg")
+    val uri = this.getClass.getClassLoader.getResource("licenseplates")
     uri should not equal (null)
 
     val detector = new LicensePlateDetector(uri)
     val actual = detector.get(null, null)
 
-    actual.length should equal(2)
+    actual.length should equal(0)
 
   }
 

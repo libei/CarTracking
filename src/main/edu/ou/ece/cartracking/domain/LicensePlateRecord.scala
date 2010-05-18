@@ -13,7 +13,7 @@ class LicensePlateRecord {
   var date: Date = null;
 
   @Transient
-  var accuracy: float = 0.0f
+  var accuracy: String = ""
 
   @Transient
   var number: String = ""
