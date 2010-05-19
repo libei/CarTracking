@@ -1,7 +1,7 @@
 package edu.ou.ece.cartracking.domain
 
 import java.util.Date
-import javax.persistence.{Transient, Entity, Id, GeneratedValue}
+import javax.persistence._
 
 @Entity
 class LicensePlateRecord {
@@ -9,16 +9,18 @@ class LicensePlateRecord {
   @GeneratedValue
   var id: Long = 0l
 
-  @Transient
+  @Temporal {val value = TemporalType.TIME}
+  @Column {val name = "_date"}
   var date: Date = null;
 
-  @Transient
+  @ManyToOne
+  @JoinColumn {val name = "CarRecordId", val nullable = false}
+  var carRecord: CarRecord = null
+
   var accuracy: String = ""
 
-  @Transient
   var number: String = ""
 
-  @Transient
   var filename: String = ""
 
 }

@@ -16,6 +16,7 @@
         <mapping package="edu.ou.ece.cartracking.domain"/>
         <mapping class="edu.ou.ece.cartracking.domain.CarRecord"/>
         <mapping class="edu.ou.ece.cartracking.domain.BluetoothRecord"/>
+        <mapping class="edu.ou.ece.cartracking.domain.LicensePlateRecord"/>
 
     </session-factory>
 
