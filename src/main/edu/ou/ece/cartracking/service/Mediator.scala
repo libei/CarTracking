@@ -5,7 +5,7 @@ import org.apache.log4j.Logger
 import edu.ou.ece.cartracking.repository.CarRecordRepository
 import edu.ou.ece.cartracking.domain.{CarRecord}
 
-class Mediator(bluetoothSensor: BluetoothSensor) extends Actor {
+class Mediator(bluetoothSensor: BluetoothSensor, licensePlateDetector: LicensePlateDetector) extends Actor {
   private val logger: Logger = Logger.getLogger(getClass)
 
   def act() {

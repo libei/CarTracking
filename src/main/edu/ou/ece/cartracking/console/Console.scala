@@ -6,14 +6,14 @@ import edu.ou.ece.cartracking.utils.Configuration
 object Console extends Application {
   val licensePlateDetector = new LicensePlateDetector(Configuration.licenseplateUrl)
   val bluetoothSensor = new BluetoothSensor(Configuration.bluetoothUrl)
-  val mediator = new Mediator(bluetoothSensor)
+  val mediator = new Mediator(bluetoothSensor, licensePlateDetector)
   val camera = new VideoCamera(mediator)
 
 
   mediator.start
   camera.start
 
-  System.out.println("Press Any Key to Continue...")
+  System.out.println("Press Any Key to Stop...")
   System.in.read
 
 }
