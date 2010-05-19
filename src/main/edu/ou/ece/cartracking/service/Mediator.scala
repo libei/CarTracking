@@ -16,7 +16,7 @@ class Mediator(bluetoothSensor: BluetoothSensor, licensePlateDetector: LicensePl
         case c: CarIdentifiedMsg => {
           logger debug ("CarIdentifiedMsg received.")
 
-          //c.time
+          //          c.time
 
           val carRecord = new CarRecord
 
@@ -28,9 +28,7 @@ class Mediator(bluetoothSensor: BluetoothSensor, licensePlateDetector: LicensePl
 
           CarRecordRepository.save(carRecord)
         }
-
       }
-
     }
   }
 }
