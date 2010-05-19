@@ -4,7 +4,11 @@ import edu.ou.ece.cartracking.domain.LicensePlateRecord
 import java.text.SimpleDateFormat
 
 object LicensePlateParser {
-  def parse(string: String): LicensePlateRecord = {
+  def parse(string: String): Option[LicensePlateRecord] = {
+
+    if (!string.charAt(0).equals('f'))
+      return None
+
     val firstComma: Int = string.indexOf(",")
     val secondComma: Int = string.indexOf(",", firstComma + 1)
     val thirdComma: Int = string.indexOf(",", secondComma + 1)
@@ -18,7 +22,7 @@ object LicensePlateParser {
     var df = new SimpleDateFormat("MMdd,HHmmSSS");
     record.date = df.parse(string.substring(1, secondComma))
 
-    record
+    Some(record)
 
   }
 
