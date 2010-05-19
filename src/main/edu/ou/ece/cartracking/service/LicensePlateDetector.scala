@@ -2,15 +2,14 @@ package edu.ou.ece.cartracking.service
 
 import java.util.Date
 import edu.ou.ece.cartracking.domain.LicensePlateRecord
-import java.net.{URL}
 import java.io.File
 import collection.mutable.ListBuffer
 
-class LicensePlateDetector(url: URL) {
+class LicensePlateDetector(_root: String) {
   def get(start: Date, end: Date): List[LicensePlateRecord] = {
 
     val files = new ListBuffer[File]
-    val root = new File(url.getPath)
+    val root = new File(_root)
     val subFolders = root.listFiles
     subFolders.foreach(fd => {
       files.appendAll(fd.listFiles)

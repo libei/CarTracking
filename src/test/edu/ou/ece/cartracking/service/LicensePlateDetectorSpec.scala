@@ -20,7 +20,7 @@ class LicensePlateDetectorSpec extends FlatSpec with ShouldMatchers {
     var start = df.parse("0514,2139367")
     var end = df.parse("0514,2140199")
 
-    val detector = new LicensePlateDetector(uri)
+    val detector = new LicensePlateDetector(uri.getPath)
     val actual = detector.get(start, end)
 
     actual.length should equal(6)
