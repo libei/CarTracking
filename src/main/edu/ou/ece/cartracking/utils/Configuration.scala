@@ -11,4 +11,6 @@ object Configuration {
 
   def bluetoothUrl: String = return props.getProperty("bluetoothsensor.url")
 
+  def licenseplateUrl: String = return props.getProperty("licenseplate.url")
+
 }
