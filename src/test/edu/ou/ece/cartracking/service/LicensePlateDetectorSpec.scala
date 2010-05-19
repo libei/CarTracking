@@ -6,6 +6,7 @@ import org.scalatest.FlatSpec
 import org.scalatest.junit.JUnitRunner
 import edu.ou.ece.cartracking.service.LicensePlateDetector
 import java.net.URI
+import java.text.SimpleDateFormat
 
 @RunWith(classOf[JUnitRunner])
 class LicensePlateDetectorSpec extends FlatSpec with ShouldMatchers {
@@ -15,10 +16,14 @@ class LicensePlateDetectorSpec extends FlatSpec with ShouldMatchers {
     val uri = this.getClass.getClassLoader.getResource("licenseplates")
     uri should not equal (null)
 
-    val detector = new LicensePlateDetector(uri)
-    val actual = detector.get(null, null)
+    var df = new SimpleDateFormat("MMdd,HHmmSSS");
+    var start = df.parse("0514,2139367")
+    var end = df.parse("0514,2140199")
 
-    actual.length should equal(0)
+    val detector = new LicensePlateDetector(uri)
+    val actual = detector.get(start, end)
+
+    actual.length should equal(6)
 
   }
 
