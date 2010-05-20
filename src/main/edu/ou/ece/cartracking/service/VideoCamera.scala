@@ -1,11 +1,12 @@
 package edu.ou.ece.cartracking.service
 
 import actors.Actor
-import java.util.Date
 import org.apache.log4j.Logger
+import java.util.{Calendar}
 
 class VideoCamera(mediator: Mediator) extends Actor {
   private val logger: Logger = Logger.getLogger(getClass)
+  private val calendar = Calendar.getInstance()
 
   def act() {
 
@@ -13,7 +14,7 @@ class VideoCamera(mediator: Mediator) extends Actor {
 
       if (false) { //any new cars detected
 
-        mediator ! CarIdentifiedMsg(this, null, 1l)
+        mediator ! CarIdentifiedMsg(this, calendar.getTime, 1l)
         logger debug ("Send CarIdentifiedMsg")
 
       }
